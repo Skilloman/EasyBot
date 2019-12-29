@@ -30,13 +30,4 @@ fs.readdir('./Events/', (err, files) => {
     console.log(`--- ${files.length} events chargées ! ---`)
 })
 
-
-// client.on('ready', () => require('./Events/ready.js')(client)) // Test : OK
-// client.on('message', message => require('./Events/message.js')(client, message)) // Test
-// client.on('guildMemberAdd', member => require('./Events/guildMemberAdd.js')(client, member)) // Test
-// client.on('guildMemberRemove', member => require('./Events/guildMemberRemove')(client, member)) // Test
-// client.on('guildMemberUpdate', (o, n) => require('./Events/guildMemberUpdate.js')(client, o, n)) // Test
-// client.on('messageReactionAdd', (messageReaction, userAddReaction) => require('./Events/messageReactionAdd.js')(client, messageReaction, userAddReaction)) // Test
-// client.on('presenceUpdate', (oM, nM) => require('./Events/presenceUpdate.js')(client, oM, nM)) // Test
-
-client.login('J\'aime bien manger des pâtes au sucre')
+client.login('token')
