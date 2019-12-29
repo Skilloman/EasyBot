@@ -1,6 +1,6 @@
 const DISCORD = require('discord.js'), fetch = require('node-fetch')
 exports.run = (client, message) => {
-    let apiKey = 'n0OiilKqTE1zoKNVD-I6Oq4ejMkulecC',
+    let apiKey = 'apiKey',
         mot = message.content.split(' ')[1],
         typeResult = 'definitions',
         url = `https://api.dicolink.com/v1/mot/${mot}/${typeResult}?limite=5&api_key=${apiKey}`
